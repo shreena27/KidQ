@@ -1800,10 +1800,14 @@ and DOM values but not judge rendered motion or sub-pixel legibility in a
 hidden tab.
 
 This closes the selector spec's §3 "Flower and Candle" row
-(`2026-09-14-kidq-break-selector-naming-design.md`). **5 concepts remain**
-open there: puddle_jump, butterfly_wings, cloud_reach, sleepy_stretch,
-firefly_count — plus the still-open Firefly-Count-vs-count overlap
-question, neither touched by this build.
+(`2026-09-14-kidq-break-selector-naming-design.md`). **4 concepts remain**
+open there: puddle_jump, butterfly_wings, cloud_reach, sleepy_stretch — none
+touched by this build, decision deferred to a future session.
+
+**RESOLVED (2026-09-16): Firefly Count vs. `count` overlap question.** `count`
+wins — it's already built and shipped (item 44, "Count to 10"); Firefly
+Count is cut as a redundant second counting concept rather than built
+alongside it. See the selector spec's §3/§5/§6 for the full note.
 
 ## Sun and day-bar findability pass (2026-09-16)
 
